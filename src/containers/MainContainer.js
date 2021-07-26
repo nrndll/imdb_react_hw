@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import LinkItem from '../components/LinkItem';
 import ListBox from '../components/ListBox';
 
 const MainContainer = () => {
@@ -34,6 +35,7 @@ const MainContainer = () => {
         <>
             <h2>Upcoming Film Releases for UK</h2>
             <ListBox movies={movies}/>
+            <LinkItem/>
         </>
     );
 };
